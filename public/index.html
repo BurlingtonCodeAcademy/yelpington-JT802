@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yelpington</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <!-- The link to my index.css must come *below* Leaflet's own CSS -->
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Yelpington!</h1>
+    <div class="nav">
+      <a id="home" href="/">Home</a>
+      <!-- Can I make this center back on zeroMark when clicked? -->
+      <a id="singlePebble" href="/single-pebble.html">Five Guys</a>
+      <a id="halversons" href="/halversons.html">Halverson's</a>
+      <a id="skinnyPancake" href="/skinny-pancake.html">The Skinny Pancake</a>
+      <a id="mcDonalds" href="/mcdonalds.html">McDonald's</a>
+      <a id="leunigsBistro" href="/leunigs-bistro.html">Leunig's Bistro</a>
+      <a id="fuDa" href="/fu-da.html">Fu Da</a>
+      <a id="elCortio" href="/el-cortio.html">El Cortio</a>
+      <a id="vtPubBrew" href="/vermont-pub-brewery.html">VT Pub & Brewery</a>
+      <a id="koto" href="/koto-japanese-steakhouse.html">KOTO</a>
+    </div>
 
-  <script src="main.js"></script>
-</body>
+    <div id="map-container"></div>
+
+    <script src="/index.js"></script>
+  </body>
 </html>
