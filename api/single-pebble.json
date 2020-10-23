@@ -1,11 +1,8 @@
 {
-    "id": "single-pebble",
-    "name": "A Single Pebble",
-    "address": "130 College Street",
-    "phone number": "555-1221",
-    "hours": "7:00 am - 3:00 pm",
-    "notes": [
-      "Their sriracha breakfast sandwich is quite good.",
-      "Every Thursday is meatloaf day."
-    ]
-  }
+  "id": "single-pebble",
+  "name": "A Single Pebble",
+  "address": "131 Bank Street",
+  "phone number": "802-865-5200",
+  "hours": "Tues-Sat, 3:30pm - Close",
+  "notes": "The service is slow, but the food is phenomenal."
+}

@@ -1,5 +1,5 @@
 // This establishes the beginning map of Burlington //
-let myMap = L.map("map-container").setView([44.475833, -73.211944], 13);
+let myMap = L.map("map-container").setView([44.475833, -73.211944], 15);
 
 // Uses an established map tileset from http://leaflet-extras.github.io/leaflet-providers/preview/ (where we grabbed one from in class) //
 L.tileLayer(
@@ -13,8 +13,8 @@ L.tileLayer(
 
 // ------ Ten-Pin set for center Burlington & nine total restaurants ------ //
 // base pin around the center of Burlington
-let zeroMark = L.marker([44.47, -73.21]).addTo(myMap);
-// first pin at A Single Pebble ([need lat, long])
+let zeroMark = L.marker([44.475833, -73.211944]).addTo(myMap);
+//first pin at A Single Pebble ([need lat, long])
 let firstMark = L.marker([]).addTo(myMap);
 // second pin at Halversons ([need lat, long])
 let secondMark = L.marker([]).addTo(myMap);
