@@ -1,33 +1,31 @@
-// imports of the important bits
+// import the important bits
 const express = require("express");
 const path = require("path");
 const app = express();
 
-// ------ Global Variables ------ //
-// provideing port options
+// providing port options
 const port = process.env.PORT || 8000;
-//const public = path.resolve(".");
 
 // here's some middleware for our home audience
-app.use(express.static('public')); //(don't know if this conflicts yet)//
+app.use(express.static("public"));
 
 // A single route for the homepage
 app.get("/", (request, response) => {
-  response.sendFile(path.resolve("public/index.html"))
+  response.sendFile(path.resolve("public/index.html"));
 });
 
 // route for showing list of all restaurant ids in JSON format
-app.get("/restaurants", (request, response) => {
-    response.sendFile(path.resolve('api/restaurants.json'))
+app.get("/api", (request, response) => {
+  response.sendFile(path.resolve("api/restaurants.json"));
 });
 
 // route for showing a single restaurant by id in JSON format
-app.get("/restaurants/:name", (request, response) => {
-    let name = request.params.name
-    response.sendFile(path.resolve(`api/${name}.json`))
-})
+app.get("/api/:id", (request, response) => {
+  let id = request.params.id;
+  response.sendFile(path.resolve(`api/${id}.json`));
+});
 
 // Where the port is listening
 app.listen(port, () => {
-  console.log("App is listening on port: " + port)
+  console.log("App is listening on port: " + port);
 });

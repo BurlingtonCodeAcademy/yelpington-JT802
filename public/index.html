@@ -15,27 +15,28 @@
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""
     ></script>
-    <!-- The link to my index.css must come *below* Leaflet's own CSS -->
+    <!-- The leaflet.js (line 7) & leaflet.css (line 13) above are specifically for Leaflet's use. -->
+    <!-- The link to my index.css has to come *below* those two previous files in order for Leaflet to work. -->
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
     <h1>Yelpington!</h1>
+    <!-- This nav bar has to go below "Yelpington!", and links should take user to dedicated restaurant page. -->
     <div class="nav">
       <a id="home" href="/">Home</a>
-      <!-- Can I make this center back on zeroMark when clicked? -->
+      <!-- How can I make this center back on zeroMark when clicked? -->
       <a id="singlePebble" href="/single-pebble.html">A Single Pebble</a>
       <a id="halversons" href="/halversons.html">Halverson's</a>
       <a id="skinnyPancake" href="/skinny-pancake.html">The Skinny Pancake</a>
-      <a id="mcDonalds" href="/mcdonalds.html">McDonald's</a>
-      <a id="leunigsBistro" href="/leunigs-bistro.html">Leunig's Bistro</a>
-      <a id="fuDa" href="/fu-da.html">Fu Da</a>
+      <a id="shyGuy" href="/shy-guy.html">Shy Guy Gelato</a>
+      <a id="leonardos" href="/leonardos.html">Leonaro's Pizza</a>
       <a id="elCortio" href="/el-cortio.html">El Cortio</a>
       <a id="vtPubBrew" href="/vermont-pub-brewery.html">VT Pub & Brewery</a>
-      <a id="koto" href="/koto-japanese-steakhouse.html">KOTO</a>
+      <a id="speederEarls" href="/speeder-earls.html">Speeder & Earls</a>
     </div>
-
+    <!-- This is the container that the map is drawn in when the homepage loads in. -->
     <div id="map-container"></div>
-
+    <!-- The index.js also has to be in the /public dir since it handles direct DOM manipulation. -->
     <script src="/index.js"></script>
   </body>
 </html>
