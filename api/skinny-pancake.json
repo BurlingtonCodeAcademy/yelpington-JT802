@@ -2,7 +2,9 @@
   "id": "skinny-pancake",
   "name": "The Skinny Pancake",
   "address": "60 Lake Street",
-  "phone number": "(802) 540-0188",
+  "phone": "(802) 540-0188",
   "hours": "Mon-Sun 8:00am-9:00pm",
+  "lat": "44.477484",
+  "long": "-73.220032",
   "notes": "I've never had a crepe before, but they are delicious."
 }

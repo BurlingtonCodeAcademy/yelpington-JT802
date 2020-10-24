@@ -2,7 +2,9 @@
   "id": "shy-guy",
   "name": "Shy Guy Gelato",
   "address": "457 St. Paul Street",
-  "phone number": "(802) 355-2320",
+  "phone": "(802) 355-2320",
   "hours": "Sat-Fri 12:00pm-8:00pm",
+  "lat": "44.46745",
+  "long": "-73.209846",
   "notes": "I'm in awe of the pistachio-honey gelato!"
 }

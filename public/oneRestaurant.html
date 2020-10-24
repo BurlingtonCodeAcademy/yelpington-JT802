@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Page</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <!-- The leaflet.js (line 7) & leaflet.css (line 13) above are specifically for Leaflet's use. -->
+  <!-- The link to my index.css has to come *below* those two previous files in order for Leaflet to work. -->
+  <link href="/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="restaurant-header">
+    <!-- clicking on Restaurant Page takes the user back home -->
+    <a href="/">
+      <h1>Restaurant Page</h1>
+    </a>
+  </div>
+  <div id="name">
+    <h2>Name:</h2>
+  </div>
+  <div id="address">
+    <h2>Address:</h2>
+  </div>
+  <div id="phone-number">
+    <h2>Phone:</h2>
+  </div>
+  <div id="hours">
+    <h2>Hours:</h2>
+  </div>
+  <div id="notes">
+    <h2>Notes:</h2>
+  </div>
+  <div class="restaurant-box">
+    <div id="map-container"></div>
+  </div>
+  <script src="/restaurant-style.js"></script>
+</body>
+
+</html>

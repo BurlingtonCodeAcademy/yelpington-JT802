@@ -2,7 +2,9 @@
   "id": "speeder-earls",
   "name": "Speeder & Earls Coffee",
   "address": "412 Pine Street",
-  "phone number": "(802) 658-6016",
+  "phone": "(802) 658-6016",
   "hours": "Mon-Fri 6:30am-6:00pm, Sat & Sun 8:00am-5:00pm",
+  "lat": "44.467868",
+  "long": "-73.215032",
   "notes": "This is the only place in Burly for a serious caffiene rush."
 }
