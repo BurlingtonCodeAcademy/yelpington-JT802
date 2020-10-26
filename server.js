@@ -32,6 +32,11 @@ app.get("/public/:restId", (request, response) => {
 	response.sendFile(path.resolve("./public/oneRestaurant.html"));
 });
 
+/* Can't make the "Show Restaurant" story work
+app.get("/oneRestuarant.html#id", (request, response) => {
+	response.sendFile(path.resolve("./public/oneRestaurant.html"))
+}) */
+
 // Where the port is listening
 app.listen(port, () => {
 	console.log("App is listening on port: " + port);

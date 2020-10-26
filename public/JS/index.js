@@ -28,7 +28,7 @@ let firstMark = L.marker([44.478132, -73.214573])
 // second marker at Halversons
 let secondMark = L.marker([44.479993, -73.212702])
 	.addTo(myMap)
-	.bindTooltip("<h5>Halversons")
+	.bindTooltip("<h5>Halversons</h5>")
 	.on("click", () => {
 		window.location = "/public/halversons";
 	});

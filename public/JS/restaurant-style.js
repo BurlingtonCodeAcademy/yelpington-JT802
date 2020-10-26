@@ -6,7 +6,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 		'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(myMap);
 
-//fetches the relevant page (by restaurant name) from the server
+//fetches the relevant HTML page (by restaurant name) from the server
 let restaurantPage = document.location.pathname.split("/").splice(-1);
 fetch("/api/" + restaurantPage)
 	.then((response) => response.json())
@@ -28,3 +28,8 @@ function fillInfo(info) {
 	//this should center and zoom in the map on the restaurant marker for the restaurant page
 	myMap.setView(latLong, 18);
 }
+
+/* fetch for the "Show Restaurant" story (I'm writing something incorrect here.)
+let id = document.location.hash.slice(1);
+fetch("/oneRestaurant.html#id")
+.then((response) => response.sendFile("./public/oneRestaurant.html")) */
