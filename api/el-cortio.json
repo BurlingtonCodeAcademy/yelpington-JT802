@@ -1,10 +1,10 @@
 {
-  "id": "el-cortio",
-  "name": "El Cortio Cantina",
-  "address": "189 Bank Street",
-  "phone": "(802) 497-1668",
-  "hours": "Fri-Sat 4:00pm-10:00pm, Sun-Thurs 4:00pm-9:00pm",
-  "lat": "44.478233",
-  "long": "-73.211998",
-  "notes": "Frankly, I miss the old Oasis Diner."
+	"id": "el-cortio",
+	"name": "El Cortio Taqueria",
+	"address": "189 Bank Street, Burlington VT, 05401",
+	"phone": "(802) 497-1668",
+	"hours": "Friday & Saturday: 4:00pm-10:00pm, Sunday-Thursday: 4:00pm-9:00pm",
+	"lat": "44.478233",
+	"long": "-73.211998",
+	"notes": " 'Frankly, I miss the old Oasis Diner.' "
 }

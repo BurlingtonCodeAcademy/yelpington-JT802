@@ -8,6 +8,7 @@ const port = process.env.PORT || 8000;
 
 // here's some middleware for our home audience
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
 
 // A single route for the homepage
 app.get("/", (request, response) => {
@@ -25,8 +26,7 @@ app.get("/api/:id", (request, response) => {
 	response.sendFile(path.resolve(`./api/${id}.json`));
 });
 
-/* Clicking on a nav link *or* marker for a single restaurant displays that restaurant's page*/
-// I don't yet know how to make it move & display info after clicking on a specific marker
+// Click on a nav link *or* marker to display that restaurant's specific page
 app.get("/public/:restId", (request, response) => {
 	let restId = request.params.restId;
 	response.sendFile(path.resolve("./public/oneRestaurant.html"));

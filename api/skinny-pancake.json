@@ -1,10 +1,10 @@
 {
-  "id": "skinny-pancake",
-  "name": "The Skinny Pancake",
-  "address": "60 Lake Street",
-  "phone": "(802) 540-0188",
-  "hours": "Mon-Sun 8:00am-9:00pm",
-  "lat": "44.477484",
-  "long": "-73.220032",
-  "notes": "I've never had a crepe before, but they are delicious."
+	"id": "skinny-pancake",
+	"name": "The Skinny Pancake",
+	"address": "60 Lake Street, Burlington VT, 05401",
+	"phone": "(802) 540-0188",
+	"hours": "Daily: 8:00am-9:00pm (Hours subject to change.)",
+	"lat": "44.477484",
+	"long": "-73.220032",
+	"notes": " 'I never had a crepe before, but they are delicious here.' "
 }

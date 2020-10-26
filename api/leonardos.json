@@ -1,10 +1,10 @@
 {
-  "id": "leonardos",
-  "name": "Leonardo's Pizza",
-  "address": "83 Pearl Street",
-  "phone": "(802) 862-7700",
-  "hours": "Fri-Thurs 11:00am-11:55pm",
-  "lat": "44.480358",
-  "long": "-73.215544",
-  "notes": "You totally need to try the Goat Cheese Honey pie."
+	"id": "leonardos",
+	"name": "Leonardo's Pizza",
+	"address": "83 Pearl Street, Burlington VT, 05401",
+	"phone": "(802) 862-7700",
+	"hours": "Daily: 11:00am-11:55pm",
+	"lat": "44.480358",
+	"long": "-73.215544",
+	"notes": " 'You totally need to try the Goat Cheese Honey pie.' "
 }

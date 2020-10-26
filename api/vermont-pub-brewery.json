@@ -1,10 +1,10 @@
 {
-  "id": "vermont-pub-brewery",
-  "name": "Vermont Pub & Brewery",
-  "address": "144 College Street",
-  "phone": "(802) 865-0500",
-  "hours": "Fri-Sat, Weds, Thurs 11:30am-9:00pm, Closed Mon & Tues",
-  "lat": "44.477055",
-  "long": "-73.214404",
-  "notes": "The Ploughman's Lunch platter was wicked good!"
+	"id": "vermont-pub-brewery",
+	"name": "Vermont Pub & Brewery",
+	"address": "144 College Street, Burlington VT, 05401",
+	"phone": "(802) 865-0500",
+	"hours": "Wednesday-Sunday: 11:30am-9:00pm, Closed Monday & Tuesday",
+	"lat": "44.477055",
+	"long": "-73.214404",
+	"notes": " 'The Ploughman's Lunch platter was wicked good!' "
 }

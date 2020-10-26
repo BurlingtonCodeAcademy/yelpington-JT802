@@ -1,7 +1,7 @@
 // This establishes the beginning map of Burlington //
 let myMap = L.map("map-container").setView([44.475833, -73.211944], 15);
 
-// Uses an established map tileset from http://leaflet-extras.github.io/leaflet-providers/preview/ (where we grabbed one from in class) //
+// Using an established map tileset from http://leaflet-extras.github.io/leaflet-providers/preview/ //
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 	maxZoom: 20,
 	attribution:
@@ -10,7 +10,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // ------ Nine-marker set for center Burlington & eight total restaurants ------ //
 
-// base marker nearish the center of Burlington
+// zero marker near the center of Burlington
 let zeroMark = L.marker([44.476025, -73.211034])
 	.addTo(myMap)
 	.bindTooltip("<h5>Welcome to Burlington!</h5>");
